@@ -1,0 +1,30 @@
+bold/large headlines serif font font-family: 'Merriweather', serif;
+text sans serif font-family: 'Lato', sans-serif;
+
+42 Binary value: 0101010
+
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@700&display=swap');
+</style>
+
+I’m a professional communicator & craftsman first.
+
+In my past life I was an enterprise project manager, now I enjoy full stack programming.
+
+git
+REST
+GSAP
+Babel
+SCSS
+Webpack 
+
+            <li>11ty</li>
+            <li>Netlify</li>
+            <li>Linode</li>
+            <li>NGINX</li>
+                        <li>Firebase</li>
+
+
