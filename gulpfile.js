@@ -19,7 +19,7 @@ function sass() {
        sourceMap: true
     }) )
     .pipe(sourcemaps.write( cssDEST )) 
-    .pipe(rename( {basename: "style"}) )
+    .pipe(rename( {basename: "main"}) )
     .pipe(dest(cssDEST) );
     // .pipe(browserSync.stream());
 }
