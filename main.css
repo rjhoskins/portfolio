@@ -8,7 +8,8 @@
   --color-white-grey: #f9f9f9;
   --color-grey-dark: #282e34;
   --radius-top-only: 5px 5px 0 0;
-  --color-text-default: var(--color-grey-dark); }
+  --color-text-default: var(--color-grey-dark);
+  --color-btn-: var(--color-grey-dark); }
 
 h1,
 h2,
@@ -112,32 +113,6 @@ a {
 ul {
   list-style: none; }
 
-.theme-options__dot {
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
-  margin: 5px;
-  cursor: pointer;
-  border: 2px solid var(--theme-options-border-color); }
-  .theme-options__dot:hover {
-    border-width: 5px; }
-  .theme-options__dot--light {
-    background-color: lightgray; }
-  .theme-options__dot--blue {
-    background-color: blue; }
-  .theme-options__dot--green {
-    background-color: green; }
-  .theme-options__dot--purple {
-    background-color: purple; }
-
-.theme-options__wrapper {
-  display: flex;
-  padding: 1rem; }
-
-.theme-options__text {
-  padding-left: 1rem; }
-
 .shadowbox {
   background-color: var(--previewShadow);
   max-width: 300px;
@@ -151,25 +126,6 @@ ul {
     background-color: var(--previewBg);
     padding: 15px;
     position: relative; }
-  .shadowbox__dot {
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    border: 2px solid black;
-    z-index: 1; }
-    .shadowbox__dot--tl {
-      top: -10px;
-      left: -10px; }
-    .shadowbox__dot--tr {
-      top: -10px;
-      right: -10px; }
-    .shadowbox__dot--br {
-      bottom: -10px;
-      right: -10px; }
-    .shadowbox__dot--bl {
-      bottom: -10px;
-      left: -10px; }
 
 .section-about__content {
   display: grid;
@@ -231,8 +187,19 @@ ul {
   padding-top: 10px;
   padding-bottom: 10px;
   color: #fff;
-  background-color: var(--buttonColor);
-  border: none; }
+  background-color: var(--color-grey-dark);
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+  border: none;
+  transition: background-color 0.25s ease-in-out, box-shadow 0.25s; }
+  #submit-btn:hover {
+    cursor: pointer;
+    background-color: #1d2126;
+    box-shadow: none;
+    transition: background-color 0.25s ease-in-out, box-shadow 0.25s; }
+
+textarea,
+input {
+  padding-left: 4px; }
 
 @media screen and (max-width: 1200px) {
   .section-showcase {
